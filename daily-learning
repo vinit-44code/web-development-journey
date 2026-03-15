@@ -61,7 +61,7 @@ Example:
 ⬜ <style> ITS FOR ADDING CSS FILE
 ⬜  script tag ITS FOR JAVASCRIPT  AND ADD IT IN THE END OF BODY TAG 
 
-<!-- 3️⃣ Headings & Text
+ 3️⃣ Headings & Text
 
 ⬜ <h1> to <h6>
 ⬜ <p> paragraph  It do not take extra space like <pre> tag we can take as much we want and it is shown on webpage on too but cant happen in <p>tag.
@@ -101,10 +101,37 @@ Example:
 ⬜ <ol> ordered list
 ⬜ <li> list item
 ⬜ nested lists
--->
+
 
 
 learn about semantic tags !!
 they are useful for accesibility and for seo it give our website more sepific role and every 
 semantic tag has some specififc landmark role which help them to know where should be your content 
 placed on page .
+
+
+8 Semantic HTML
+
+⬜ <header>
+⬜ <nav>
+⬜ <main>
+⬜ <section>
+⬜ <article>
+⬜ <aside>
+⬜ <footer>
+
+9 Tables
+
+⬜ <table>
+⬜ <tr>
+⬜ <td>
+⬜ <th>
+⬜ <thead>
+⬜ <tbody>
+⬜ <tfoot>
+⬜ rowspan
+⬜ colspan
+
+10forms
+
+
