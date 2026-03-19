@@ -138,5 +138,35 @@ and in colspan we can merge columns (vertical)
 
 10 forms it is used to collect data from user (here we made student registration form with  using html )
 covering all concepts of form 
+so in form.html i did practise of form and all the concepts related to form like input type and all other attributes of form.
+
+
+now infame tag and video tag 
+infame tag :in which we can embed any website in our website but it is not good for seo and it is not good for security purpose
+video tag : in which we can embed video in out website but it is also not good for seo and it is not good for security purpose
+
+
+....................................................................................................................................
+css covering now 
+
+1 css basics
+It is used to style your document and make it more attractive and beautiful
+well moatly we use external css file for styling but we can also use internal and inline css but it is not good for seo  
+
+<link rel="stylesheet" href="style.css"> this is how we link css file in our html document and we link it in head tag (external css file)
+                      some property of csss
+1 color property it is used to set the color of text 
+2 background-color it has more systems to set background-color like hex code and rgb  too 
+3 text-align It change according to their parent element 
+4 text-decoration it is used to set underline and overline and line through 
+5 font-weight it is used to set the weight of font like normal and bold 
+6 font-family it is used to the font of your text like arial and time new roman and all other font 
+7 font-size it is used to set the size of your text like 14 px 
+8 line-height it is used to set the space between two lines of text 
+10 letter-spacing it is use to set the space between two letter of text 
+text-transform it is used to set the text in uppercase and lowercase and capitalize 
+
+                                    selectors in csss
+                                    
 
 
