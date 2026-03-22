@@ -265,3 +265,55 @@ property of box model
 
 
 display:inline and block 
+and inline-block is most intersting one becuase it as a element will come in new line and give the property of inline block so you can style it.
+
+
+relative units
+✅ Simple rule to remember
+
+px → fixed
+rem → scalable text
+% → flexible layout
+vw / vh → viewport-based size
+
+alpha channel :set opacity for color from range of 0 to 1 (255,255,255,0.3)last element in this is alpha channel
+opacity:for element only whatver is written can be hidden 
+
+.............................................Transition and Transform.............................................................................
+
+transition :define the transition between element 
+property-name|duration|time-function|delay
+Transition:margin-top 2s ease-in-out delay (example)
+transform:
+1 rotate (43deg)
+2 scale (0.5,0.2) its for zoom 1st value for width and 3nd value for height
+3 translate(12px 10px) 1st for x axix and 2nd value for y axis movement on both axis
+4 skew(30deg) its for tilt 
+
+we can do as many function together 
+transform: rotate(20deg) translator(150px);
+
+box-shadow(x offset,y offset ,blurness ,color);
+example box shadow:2px 2px 10px green;
+it is used to make your element little 3d 
+
+
+background-image :"url link here";
+background-size
+1 contain (crop and scale does not happen only fill on the whole page )
+2 cover ( crop the element and do not scale it)
+3 auto (for stretch)
+
+creating a card hover effect
+
+b0x-shadow: 2px 4px 8px black;
+card hover:{
+  0 8px 16px black;
+  transition:2secound;
+}
+
+----------------------------------------------------------------------------------------------------------
+POSITION
+IN DOCUMENT WHERE ELEMENT IS POSITIONED AND ITS FIXED PLACES 
+
+
