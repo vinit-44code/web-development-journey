@@ -315,5 +315,52 @@ card hover:{
 ----------------------------------------------------------------------------------------------------------
 POSITION
 IN DOCUMENT WHERE ELEMENT IS POSITIONED AND ITS FIXED PLACES 
+1 static 
+every html element is default as static do it prevent from any top effect 
+position:static;
+top:100px;
+left:100px;
 
 
+2 relative
+The element stays in the normal flow, but you can move it relative to its original position.
+The space it originally occupied remains.
+position:relative;
+top:20%;
+bottom:30%;
+
+
+3 absolute
+The element is removed from normal flow.
+It positions relative to the nearest positioned parent (parent with relative, absolute, or fixed).
+
+
+
+l developer tip:
+Most layouts use this combination:
+
+position: relative → on parent
+position: absolute → on child
+
+This helps place elements inside containers easily.
+by using relative as parent element and absolute as child element it will make it more responsive.
+Why This Helps in Responsive Design
+
+When the parent resizes on different screens:
+
+The absolute element stays positioned relative to that parent
+It doesn't break the layout
+
+
+4 fixed 
+the element is fixed relative to the viewport (screen).
+It does not move when scrolling.
+
+5 sticky 
+Works like relative at first, then becomes fixed when scrolling
+
+
+------------------------------------------------------flexbox--------------------------------------
+
+flexible box layout 
+1 dimensional layout method to arrange items in row or column.
